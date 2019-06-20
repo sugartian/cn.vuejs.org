@@ -36,7 +36,7 @@ order: 7
 你可以使用 `v-else` 指令来表示 `v-if` 的“else 块”：
 
 ``` html
-<div v-if="Math.random() > 0.5">
+<div v-if='Math.random() > 0.5'>
   Now you see me
 </div>
 <div v-else>
